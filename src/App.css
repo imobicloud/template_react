@@ -1,0 +1,38 @@
+button { background-color: transparent; border-width: 0; }
+ul { list-style-type: none; margin: 0; padding-left: 0; }
+
+.app {}
+
+.header { height: 56px; padding: 0 16px; box-shadow: 0 0 10px #cacaca; }
+    .headerTitle { color: #646464; font-size: 24; }
+
+.body { flex: 1; }
+    .display-center { display: flex; align-items: center; justify-content: center; }
+    .display-center-h { display: flex; justify-content: center; }
+    .display-center-v { display: flex; align-items: center; }
+    .display-column { display: flex; flex-direction: column; }
+    .display-row { display: flex; flex-direction: row; }
+    .self-center { overflow: auto; margin: auto; position: absolute; top: 0; left: 0; bottom: 0; right: 0; }
+    .text-truncate { display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+    .photo-scale { object-fit: cover; }
+
+    /*== TYPEFACE ==*/
+    /*.f-bold { font-family: Poppins-SemiBold; }*/
+    /*.f-r-medium { font-family: Roboto-Medium; }*/
+    /*.f-r-regular { font-family: Roboto-Regular; }*/
+    /*.f-display-4 { color: #8A000000; font-size: 112px; font-family: Roboto-Light; }*/
+    /*.f-display-3 { color: #8A000000; font-size: 56px; font-family: Roboto-Regular; }*/
+    /*.f-display-2 { color: #8A000000; font-size: 45px; font-family: Roboto-Regular; }*/
+    /*.f-display-1 { color: #8A000000; font-size: 34px; font-family: Roboto-Regular; }*/
+    /*.f-headline { color: #33a91a; font-size: 20px; font-family: Roboto-Regular; }*/
+    /*.f-title { color: #292929; font-size: 17px; font-family: Roboto-Medium; }*/
+    /*.f-subheading { color: #fff; font-size: 15px; font-family: Roboto-Regular; }*/
+    /*.f-body-2 { color: #DE000000; font-size: 13px; font-family: Roboto-Regular; }*/
+    /*.f-body { color: #646464; font-size: 13px; font-family: Roboto-Regular; }*/
+    /*.f-caption { color: #646464; font-size: 12px; font-family: Roboto-Regular; }*/
+    /*.f-button { color: #e52d5b; font-size: 13px; font-family: Roboto-Regular; }*/
+    /*.f-input { color: #aeaeae; font-size: 12px; font-family: OpenSans; }
+    .f-input::-webkit-input-placeholder { color: #8e8e8e; }
+    .f-input::-moz-placeholder { color: #8e8e8e; }
+    .f-input:-ms-input-placeholder { color: #8e8e8e; }
+    .f-input:-moz-placeholder { color: #8e8e8e; }*/
