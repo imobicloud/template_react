@@ -12,7 +12,7 @@ type T_Props = {
 class View extends React.Component<T_Props> {
     render() {
         const { proposal } = this.props
-        return <div className="body">
+        return <div className='body'>
             <label>{Messages.Proposal.View.title}</label>
             <div>{proposal.title}</div>
             <div>{proposal.body}</div>

@@ -23,7 +23,7 @@ type TP_App = {}
 
 class App extends React.Component<TP_App> {
     render() {
-        return <div className="app">
+        return <div className='app'>
             <Header/>
             <Main/>
         </div>

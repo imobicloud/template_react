@@ -28,7 +28,7 @@ class Proposals extends React.Component<T_ProposalsProps> {
             </ul>
         }
 
-        return <div className="body">
+        return <div className='body'>
             <label>{Messages.Proposals.title}</label>
             {list}
         </div>
