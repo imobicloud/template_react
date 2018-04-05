@@ -21,10 +21,10 @@ export type T_Error = {
 // ==
 
 type TA_Globals =
-    | { type: 'GLOBALS.UPDATE', data: TS_Globals }
+      { type: 'GLOBALS.UPDATE', data: TS_Globals }
 
 type TA_Proposal =
-    | { type: 'PROPOSAL.ADD' }
+      { type: 'PROPOSAL.ADD' }
     | { type: 'PROPOSAL.ADD_SUCCESS' }
     | { type: 'PROPOSAL.ADD_ERROR', error: T_Error }
     | { type: 'PROPOSAL.EDIT', data: TD_Proposal }
@@ -35,13 +35,13 @@ type TA_Proposal =
     | { type: 'PROPOSAL.LOAD_ERROR', error: T_Error }
 
 type TA_Proposals =
-    | { type: 'PROPOSALS.LOAD' }
+      { type: 'PROPOSALS.LOAD' }
     | { type: 'PROPOSALS.LOAD_SUCCESS', data: Array<TD_Proposal> }
     | { type: 'PROPOSALS.LOAD_ERROR', error: T_Error }
 
 // ==
 
 export type T_Action =
-    | TA_Globals
+      TA_Globals
     | TA_Proposal
     | TA_Proposals

@@ -1,4 +1,4 @@
-const en =  {
+export default {
     Header: {
         title: 'Header'
     },
@@ -14,5 +14,3 @@ const en =  {
         title: 'Proposals'
     }
 }
-
-export default en

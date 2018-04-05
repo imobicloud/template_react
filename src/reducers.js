@@ -1,10 +1,5 @@
 // @flow
 
-import { combineReducers } from 'redux'
-import { routerReducer } from 'react-router-redux'
-
-// ==
-
 import globals from './globals/reducer'
 import type { T_State as TS_Globals } from './globals/reducer'
 
@@ -24,11 +19,10 @@ export type T_State = {
 
 // ==
 
-const reducers = combineReducers({
+const reducers = {
     globals,
     proposal,
-    proposals,
-    router: routerReducer
-})
+    proposals
+}
 
 export default reducers

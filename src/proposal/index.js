@@ -5,7 +5,7 @@ import { Switch, Route } from 'react-router-dom'
 
 import ProposalEditContainer from './edit'
 import ProposalViewContainer from './view'
-import NotFound from '../components/NotFound'
+import NotFound from '../ui/NotFound'
 
 const ProposalContainer = () =>
     <Switch>

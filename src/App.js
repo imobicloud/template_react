@@ -1,13 +1,13 @@
 // @flow
 
 import * as React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 import './App.css'
 
-import Header from './components/Header'
-import Home from './components/Home'
-import NotFound from './components/NotFound'
+import Header from './ui/Header'
+import NotFound from './ui/NotFound'
+import Home from './home'
 import ProposalContainer from './proposal'
 import ProposalsContainer from './proposals'
 

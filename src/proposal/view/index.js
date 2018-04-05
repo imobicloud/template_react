@@ -7,8 +7,8 @@ import { bindActionCreators } from 'redux'
 
 import * as actions from '../actions'
 import type { TA_GetProposal } from '../actions'
-import Loading from '../../components/Loading'
-import View from '../../components/Proposal/View'
+import Loading from '../../ui/Loading'
+import View from '../../ui/Proposal/View'
 // import type { T_State as TS_Globals } from '../../globals/reducer'
 import type { T_State as TS_Proposal } from '../reducer'
 

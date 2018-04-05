@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
 import * as actions from '../actions'
-import ProposalEditContainer from '../../components/Proposal/Edit'
+import ProposalEditContainer from '../../ui/Proposal/Edit'
 
 // ==
 

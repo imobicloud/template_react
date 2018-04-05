@@ -6,7 +6,7 @@ import { bindActionCreators } from 'redux'
 
 import * as actions from './actions'
 import type { TA_GetProposals } from './actions'
-import Proposals from '../components/Proposals'
+import Proposals from '../ui/Proposals'
 import type { T_State as TS_Globals } from '../globals/reducer'
 import type { T_State as TS_Proposals } from './reducer'
 
