@@ -3,9 +3,6 @@ ul { list-style-type: none; margin: 0; padding-left: 0; }
 
 .app {}
 
-.header { height: 56px; padding: 0 16px; box-shadow: 0 0 10px #cacaca; }
-    .headerTitle { color: #646464; font-size: 24; }
-
 .body { flex: 1; }
     .display-center { display: flex; align-items: center; justify-content: center; }
     .display-center-h { display: flex; justify-content: center; }

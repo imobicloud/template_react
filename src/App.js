@@ -5,7 +5,7 @@ import { Route, Switch } from 'react-router-dom'
 
 import './App.css'
 
-import Header from './ui/Header'
+import Header from './ui/header'
 import NotFound from './ui/NotFound'
 import Home from './home'
 import ProposalContainer from './proposal'

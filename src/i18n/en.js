@@ -2,6 +2,10 @@ export default {
     Header: {
         title: 'Header'
     },
+    Menu: {
+        home: 'Home',
+        proposals: 'Proposals'
+    },
     Home: {
         title: 'Home'
     },
