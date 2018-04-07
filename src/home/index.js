@@ -2,11 +2,19 @@
 
 import * as React from 'react'
 
+import './Home.css'
+
 import Messages from '../i18n'
+
+const _M = Messages.Home
+
+// ==
 
 const Home = () =>
     <div className='body'>
-        <label>{Messages.Home.title}</label>
+        <label>{_M.title}</label>
     </div>
+
+// ==
 
 export default Home

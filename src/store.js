@@ -20,13 +20,13 @@ const middlewares = []
 const history = createHistory()
 middlewares.push(routerMiddleware(history))
 
+// thunk
+middlewares.push(thunkMiddleware)
+
 // logger
 if (process.env.NODE_ENV !== 'production') {
     middlewares.push(createLogger({ collapsed: true }))
 }
-
-// thunk
-middlewares.push(thunkMiddleware)
 
 const store = createStore(
     combineReducers({

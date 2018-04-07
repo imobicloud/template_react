@@ -7,14 +7,20 @@ import './Menu.css'
 
 import Messages from '../../i18n'
 
+const _M = Messages.Menu
+
+// ==
+
 const Menu = () =>
     <ul className='menu'>
         <li>
-            <NavLink exact to='/'>{Messages.Menu.home}</NavLink>
+            <NavLink exact to='/'>{_M.home}</NavLink>
         </li>
         <li>
-            <NavLink to='/proposals'>{Messages.Menu.proposals}</NavLink>
+            <NavLink to='/proposals'>{_M.proposals}</NavLink>
         </li>
     </ul>
+
+// ==
 
 export default Menu
