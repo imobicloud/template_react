@@ -46,6 +46,31 @@ flow-typed install [module_name]@[module_version]
 ```
 
 -----------------------------------
+# SASS
+
+## Install, run:
+
+```
+npm install node-sass-chokidar --save-dev
+npm install npm-run-all --save-dev
+```
+
+## Edit package.json:
+
+```
+-    "start": "react-scripts start",
+-    "build": "react-scripts build", // default
+-    "build": "babel src/ -d lib/",  // or flow
++    "start-js": "react-scripts start",
++    "start": "npm-run-all -p watch-css start-js",
++    "build-css": "node-sass-chokidar src/ -o src/",
++    "build-js": "react-scripts build", // default
++    "build-js": "babel src/ -d lib/", // or flow
++    "build": "npm run build-css && build-js",
++    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+```
+
+-----------------------------------
 # ESLINT
 https://eslint.org/docs/user-guide/getting-started
 
@@ -64,7 +89,7 @@ npm install eslint
 // Linux and Mac
 ./node_modules/.bin/eslint --init
 // Windows
-// .\node_modules\.bin\eslint --init 
+// .\node_modules\.bin\eslint --init
 
 // or globally
 // eslint --init
