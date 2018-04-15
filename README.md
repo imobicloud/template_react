@@ -71,6 +71,31 @@ npm install npm-run-all --save-dev
 ```
 
 -----------------------------------
+# TEST
+https://facebook.github.io/jest/docs/en/tutorial-react.html
+https://facebook.github.io/jest/docs/en/mock-functions.html
+https://facebook.github.io/jest/docs/en/snapshot-testing.html
+https://facebook.github.io/jest/docs/en/expect.html
+
+## Install, run:
+
+```
+yarn add --dev react-test-renderer
+```
+
+## Test, run:
+
+```
+yarn test
+```
+
+## Update snapshot, run:
+
+```
+yarn test -u
+```
+
+-----------------------------------
 # ESLINT
 https://eslint.org/docs/user-guide/getting-started
 
